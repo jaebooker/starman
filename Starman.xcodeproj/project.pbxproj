@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D8E6DE52368070F00196F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E6DE42368070F00196F72 /* AppDelegate.swift */; };
+		0D8E6DE72368070F00196F72 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0D8E6DE62368070F00196F72 /* GameScene.sks */; };
+		0D8E6DE92368070F00196F72 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0D8E6DE82368070F00196F72 /* Actions.sks */; };
+		0D8E6DEB2368070F00196F72 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E6DEA2368070F00196F72 /* GameScene.swift */; };
+		0D8E6DED2368070F00196F72 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E6DEC2368070F00196F72 /* GameViewController.swift */; };
+		0D8E6DF02368070F00196F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8E6DEE2368070F00196F72 /* Main.storyboard */; };
+		0D8E6DF22368071600196F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D8E6DF12368071600196F72 /* Assets.xcassets */; };
+		0D8E6DF52368071600196F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8E6DF32368071600196F72 /* LaunchScreen.storyboard */; };
+		0D8E6E002368071600196F72 /* StarmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E6DFF2368071600196F72 /* StarmanTests.swift */; };
+		0D8E6E0B2368071600196F72 /* StarmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E6E0A2368071600196F72 /* StarmanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D8E6DFC2368071600196F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D8E6DD92368070F00196F72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D8E6DE02368070F00196F72;
+			remoteInfo = Starman;
+		};
+		0D8E6E072368071600196F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D8E6DD92368070F00196F72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D8E6DE02368070F00196F72;
+			remoteInfo = Starman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D8E6DE12368070F00196F72 /* Starman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8E6DE42368070F00196F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D8E6DE62368070F00196F72 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0D8E6DE82368070F00196F72 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		0D8E6DEA2368070F00196F72 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0D8E6DEC2368070F00196F72 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0D8E6DEF2368070F00196F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D8E6DF12368071600196F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D8E6DF42368071600196F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D8E6DF62368071600196F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8E6DFB2368071600196F72 /* StarmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8E6DFF2368071600196F72 /* StarmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarmanTests.swift; sourceTree = "<group>"; };
+		0D8E6E012368071600196F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8E6E062368071600196F72 /* StarmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8E6E0A2368071600196F72 /* StarmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarmanUITests.swift; sourceTree = "<group>"; };
+		0D8E6E0C2368071600196F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D8E6DDE2368070F00196F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D8E6DF82368071600196F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D8E6E032368071600196F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D8E6DD82368070F00196F72 = {
+			isa = PBXGroup;
+			children = (
+				0D8E6DE32368070F00196F72 /* Starman */,
+				0D8E6DFE2368071600196F72 /* StarmanTests */,
+				0D8E6E092368071600196F72 /* StarmanUITests */,
+				0D8E6DE22368070F00196F72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D8E6DE22368070F00196F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D8E6DE12368070F00196F72 /* Starman.app */,
+				0D8E6DFB2368071600196F72 /* StarmanTests.xctest */,
+				0D8E6E062368071600196F72 /* StarmanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D8E6DE32368070F00196F72 /* Starman */ = {
+			isa = PBXGroup;
+			children = (
+				0D8E6DE42368070F00196F72 /* AppDelegate.swift */,
+				0D8E6DE62368070F00196F72 /* GameScene.sks */,
+				0D8E6DE82368070F00196F72 /* Actions.sks */,
+				0D8E6DEA2368070F00196F72 /* GameScene.swift */,
+				0D8E6DEC2368070F00196F72 /* GameViewController.swift */,
+				0D8E6DEE2368070F00196F72 /* Main.storyboard */,
+				0D8E6DF12368071600196F72 /* Assets.xcassets */,
+				0D8E6DF32368071600196F72 /* LaunchScreen.storyboard */,
+				0D8E6DF62368071600196F72 /* Info.plist */,
+			);
+			path = Starman;
+			sourceTree = "<group>";
+		};
+		0D8E6DFE2368071600196F72 /* StarmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D8E6DFF2368071600196F72 /* StarmanTests.swift */,
+				0D8E6E012368071600196F72 /* Info.plist */,
+			);
+			path = StarmanTests;
+			sourceTree = "<group>";
+		};
+		0D8E6E092368071600196F72 /* StarmanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D8E6E0A2368071600196F72 /* StarmanUITests.swift */,
+				0D8E6E0C2368071600196F72 /* Info.plist */,
+			);
+			path = StarmanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D8E6DE02368070F00196F72 /* Starman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8E6E0F2368071600196F72 /* Build configuration list for PBXNativeTarget "Starman" */;
+			buildPhases = (
+				0D8E6DDD2368070F00196F72 /* Sources */,
+				0D8E6DDE2368070F00196F72 /* Frameworks */,
+				0D8E6DDF2368070F00196F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starman;
+			productName = Starman;
+			productReference = 0D8E6DE12368070F00196F72 /* Starman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D8E6DFA2368071600196F72 /* StarmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8E6E122368071600196F72 /* Build configuration list for PBXNativeTarget "StarmanTests" */;
+			buildPhases = (
+				0D8E6DF72368071600196F72 /* Sources */,
+				0D8E6DF82368071600196F72 /* Frameworks */,
+				0D8E6DF92368071600196F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D8E6DFD2368071600196F72 /* PBXTargetDependency */,
+			);
+			name = StarmanTests;
+			productName = StarmanTests;
+			productReference = 0D8E6DFB2368071600196F72 /* StarmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D8E6E052368071600196F72 /* StarmanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8E6E152368071600196F72 /* Build configuration list for PBXNativeTarget "StarmanUITests" */;
+			buildPhases = (
+				0D8E6E022368071600196F72 /* Sources */,
+				0D8E6E032368071600196F72 /* Frameworks */,
+				0D8E6E042368071600196F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D8E6E082368071600196F72 /* PBXTargetDependency */,
+			);
+			name = StarmanUITests;
+			productName = StarmanUITests;
+			productReference = 0D8E6E062368071600196F72 /* StarmanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D8E6DD92368070F00196F72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Jaeson Booker";
+				TargetAttributes = {
+					0D8E6DE02368070F00196F72 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					0D8E6DFA2368071600196F72 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 0D8E6DE02368070F00196F72;
+					};
+					0D8E6E052368071600196F72 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 0D8E6DE02368070F00196F72;
+					};
+				};
+			};
+			buildConfigurationList = 0D8E6DDC2368070F00196F72 /* Build configuration list for PBXProject "Starman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D8E6DD82368070F00196F72;
+			productRefGroup = 0D8E6DE22368070F00196F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D8E6DE02368070F00196F72 /* Starman */,
+				0D8E6DFA2368071600196F72 /* StarmanTests */,
+				0D8E6E052368071600196F72 /* StarmanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D8E6DDF2368070F00196F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8E6DF02368070F00196F72 /* Main.storyboard in Resources */,
+				0D8E6DE72368070F00196F72 /* GameScene.sks in Resources */,
+				0D8E6DF22368071600196F72 /* Assets.xcassets in Resources */,
+				0D8E6DF52368071600196F72 /* LaunchScreen.storyboard in Resources */,
+				0D8E6DE92368070F00196F72 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D8E6DF92368071600196F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D8E6E042368071600196F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D8E6DDD2368070F00196F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8E6DEB2368070F00196F72 /* GameScene.swift in Sources */,
+				0D8E6DED2368070F00196F72 /* GameViewController.swift in Sources */,
+				0D8E6DE52368070F00196F72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D8E6DF72368071600196F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8E6E002368071600196F72 /* StarmanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D8E6E022368071600196F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8E6E0B2368071600196F72 /* StarmanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D8E6DFD2368071600196F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D8E6DE02368070F00196F72 /* Starman */;
+			targetProxy = 0D8E6DFC2368071600196F72 /* PBXContainerItemProxy */;
+		};
+		0D8E6E082368071600196F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D8E6DE02368070F00196F72 /* Starman */;
+			targetProxy = 0D8E6E072368071600196F72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D8E6DEE2368070F00196F72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D8E6DEF2368070F00196F72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D8E6DF32368071600196F72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D8E6DF42368071600196F72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D8E6E0D2368071600196F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D8E6E0E2368071600196F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D8E6E102368071600196F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Starman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.Starman.Starman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D8E6E112368071600196F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Starman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.Starman.Starman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D8E6E132368071600196F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarmanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.Starman.StarmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starman.app/Starman";
+			};
+			name = Debug;
+		};
+		0D8E6E142368071600196F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarmanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.Starman.StarmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starman.app/Starman";
+			};
+			name = Release;
+		};
+		0D8E6E162368071600196F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarmanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.Starman.StarmanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Starman;
+			};
+			name = Debug;
+		};
+		0D8E6E172368071600196F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarmanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeson.Starman.StarmanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Starman;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D8E6DDC2368070F00196F72 /* Build configuration list for PBXProject "Starman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D8E6E0D2368071600196F72 /* Debug */,
+				0D8E6E0E2368071600196F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D8E6E0F2368071600196F72 /* Build configuration list for PBXNativeTarget "Starman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D8E6E102368071600196F72 /* Debug */,
+				0D8E6E112368071600196F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D8E6E122368071600196F72 /* Build configuration list for PBXNativeTarget "StarmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D8E6E132368071600196F72 /* Debug */,
+				0D8E6E142368071600196F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D8E6E152368071600196F72 /* Build configuration list for PBXNativeTarget "StarmanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D8E6E162368071600196F72 /* Debug */,
+				0D8E6E172368071600196F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D8E6DD92368070F00196F72 /* Project object */;
+}
