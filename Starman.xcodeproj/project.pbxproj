@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1A5F6C236906EE00276C4E /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A5F6B236906EE00276C4E /* Starfield.sks */; };
+		0D1A5F6E2369078B00276C4E /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A5F6D2369078B00276C4E /* explosion.mp3 */; };
+		0D1A5F702369079000276C4E /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A5F6F2369079000276C4E /* torpedo.mp3 */; };
+		0D1A5F722369079700276C4E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A5F712369079700276C4E /* spark.png */; };
+		0D1A5F74236907AA00276C4E /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A5F73236907AA00276C4E /* Assets */; };
+		0D1A5F76236907C300276C4E /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0D1A5F75236907C300276C4E /* Explosion.sks */; };
 		0D8E6DE52368070F00196F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E6DE42368070F00196F72 /* AppDelegate.swift */; };
 		0D8E6DE72368070F00196F72 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0D8E6DE62368070F00196F72 /* GameScene.sks */; };
 		0D8E6DE92368070F00196F72 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0D8E6DE82368070F00196F72 /* Actions.sks */; };
@@ -17,6 +23,7 @@
 		0D8E6DF52368071600196F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8E6DF32368071600196F72 /* LaunchScreen.storyboard */; };
 		0D8E6E002368071600196F72 /* StarmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E6DFF2368071600196F72 /* StarmanTests.swift */; };
 		0D8E6E0B2368071600196F72 /* StarmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E6E0A2368071600196F72 /* StarmanUITests.swift */; };
+		0D8E6E1D2368124D00196F72 /* luckycrackpipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8E6E1C2368124D00196F72 /* luckycrackpipe2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1A5F6B236906EE00276C4E /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		0D1A5F6D2369078B00276C4E /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		0D1A5F6F2369079000276C4E /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		0D1A5F712369079700276C4E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		0D1A5F73236907AA00276C4E /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		0D1A5F75236907C300276C4E /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 		0D8E6DE12368070F00196F72 /* Starman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8E6DE42368070F00196F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D8E6DE62368070F00196F72 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +66,7 @@
 		0D8E6E062368071600196F72 /* StarmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8E6E0A2368071600196F72 /* StarmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarmanUITests.swift; sourceTree = "<group>"; };
 		0D8E6E0C2368071600196F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8E6E1C2368124D00196F72 /* luckycrackpipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luckycrackpipe2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +117,18 @@
 		0D8E6DE32368070F00196F72 /* Starman */ = {
 			isa = PBXGroup;
 			children = (
+				0D1A5F73236907AA00276C4E /* Assets */,
 				0D8E6DE42368070F00196F72 /* AppDelegate.swift */,
 				0D8E6DE62368070F00196F72 /* GameScene.sks */,
+				0D1A5F75236907C300276C4E /* Explosion.sks */,
 				0D8E6DE82368070F00196F72 /* Actions.sks */,
 				0D8E6DEA2368070F00196F72 /* GameScene.swift */,
+				0D1A5F6B236906EE00276C4E /* Starfield.sks */,
+				0D8E6E1C2368124D00196F72 /* luckycrackpipe2.png */,
 				0D8E6DEC2368070F00196F72 /* GameViewController.swift */,
+				0D1A5F712369079700276C4E /* spark.png */,
+				0D1A5F6D2369078B00276C4E /* explosion.mp3 */,
+				0D1A5F6F2369079000276C4E /* torpedo.mp3 */,
 				0D8E6DEE2368070F00196F72 /* Main.storyboard */,
 				0D8E6DF12368071600196F72 /* Assets.xcassets */,
 				0D8E6DF32368071600196F72 /* LaunchScreen.storyboard */,
@@ -239,10 +260,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D8E6DF02368070F00196F72 /* Main.storyboard in Resources */,
+				0D1A5F76236907C300276C4E /* Explosion.sks in Resources */,
+				0D1A5F6C236906EE00276C4E /* Starfield.sks in Resources */,
+				0D8E6E1D2368124D00196F72 /* luckycrackpipe2.png in Resources */,
 				0D8E6DE72368070F00196F72 /* GameScene.sks in Resources */,
+				0D1A5F722369079700276C4E /* spark.png in Resources */,
 				0D8E6DF22368071600196F72 /* Assets.xcassets in Resources */,
 				0D8E6DF52368071600196F72 /* LaunchScreen.storyboard in Resources */,
+				0D1A5F6E2369078B00276C4E /* explosion.mp3 in Resources */,
 				0D8E6DE92368070F00196F72 /* Actions.sks in Resources */,
+				0D1A5F702369079000276C4E /* torpedo.mp3 in Resources */,
+				0D1A5F74236907AA00276C4E /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,7 +471,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC9W35QTCN;
 				INFOPLIST_FILE = Starman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +490,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC9W35QTCN;
 				INFOPLIST_FILE = Starman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
